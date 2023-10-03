@@ -369,17 +369,7 @@ html {
 }
 
 .contenedor-img img {
-	width: 100%;
-}
-
-.contenedor-img .discount {
-	position: absolute;
-	left: 0;
-	background-color: var(--primary-color);
-	color: #fff;
-	padding: 2px 1.2rem;
-	border-radius: 1rem;
-	font-size: 1.2rem;
+	width: 50%;
 }
 
 .grupo-botones {
@@ -454,7 +444,7 @@ html {
 	background-color: var(--primary-color);
 }
 
-.contenido-productos-tarjeta .precio {
+.contenedor-productos-tarjeta .precio {
 	justify-self: end;
 	align-self: center;
 
@@ -462,7 +452,7 @@ html {
 	font-weight: 600;
 }
 
-.contenido-productos-tarjeta .precio span {
+.contenedor-productos-tarjeta .precio p {
 	font-size: 1.5rem;
 	font-weight: 400;
 	text-decoration: line-through;
@@ -735,6 +725,9 @@ html {
 .contenido input::-webkit-input-placeholder {
 	color: #eee;
 }
+.contenido input {
+	color: #eee;
+}
 
 .contenido button {
 	border: none;
@@ -885,10 +878,6 @@ html {
 	.contenedor-productos {
 		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 		gap: 1rem;
-	}
-
-	.contenedor-img .discount {
-		font-size: 2rem;
 	}
 
 	.contenedor-productos-tarjeta h3 {
